@@ -2,7 +2,6 @@
 using Mango.Services.AuthAPI.Models.Dto;
 using Mango.Services.AuthAPI.Service;
 using Mango.Services.AuthAPI.Service.IService;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Mango.Services.AuthAPI.Controllers
@@ -14,10 +13,10 @@ namespace Mango.Services.AuthAPI.Controllers
         private readonly IAuthService _authService;
         protected ResponseDto _responseDto;
 
-        public AuthAPIController(ResponseDto responseDto, IAuthService authService)
+        public AuthAPIController(IAuthService authService)
         {
-            _responseDto = new();
             _authService = authService;
+            _responseDto = new();
         }
 
         [HttpPost("register")]
@@ -33,10 +32,29 @@ namespace Mango.Services.AuthAPI.Controllers
             return Ok(_responseDto);
         }
         [HttpPost("login")]
-        public async Task<IActionResult> Login()
+        public async Task<IActionResult> Login([FromBody] LoginRequestDto loginRequestDto)
         {
-            return Ok();
+            var loginResponse = await _authService.Login(loginRequestDto);
+            if(loginResponse.User == null)
+            {
+                _responseDto.IsSuccess = false;
+                _responseDto.Message = "Username and password is incorrect.";
+                return BadRequest(_responseDto);
+            }
+            _responseDto.Result = loginResponse;
+            return Ok(_responseDto);
         }
-
+        [HttpPost("assignrole")]
+        public async Task<IActionResult> AssignRole([FromBody] RegisterationRequestDto model)
+        {
+            var assignRoleSuccessFul = await _authService.AssignRole(model.Email, model.Role.ToUpper());
+            if (!assignRoleSuccessFul)
+            {
+                _responseDto.IsSuccess = false;
+                _responseDto.Message = "Error encountered.";
+                return BadRequest(_responseDto);
+            }
+            return Ok(_responseDto);
+        }
     }
 }
