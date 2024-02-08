@@ -16,7 +16,7 @@ namespace Mango.Web.Service
             _httpClientFactory = httpClientFactory;
             _tokenProvider = tokenProvider;
         }
-        public async Task<ResponseDto?> SeadAsync(RequestDto requestDto, bool withBearer = true)
+        public async Task<ResponseDto?> SendAsync(RequestDto requestDto, bool withBearer = true)
         {
             try
             {
