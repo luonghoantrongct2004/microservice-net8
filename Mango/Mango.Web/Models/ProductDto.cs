@@ -1,4 +1,4 @@
-﻿namespace Mango.Webb.Models.Dtos
+﻿namespace Mango.Web.Models.Dto
 {
     public class ProductDto
     {

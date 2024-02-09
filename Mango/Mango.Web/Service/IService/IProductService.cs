@@ -1,5 +1,5 @@
 ﻿using Mango.Web.Models;
-using Mango.Webb.Models.Dtos;
+using Mango.Web.Models.Dto;
 
 namespace Mango.Web.Service.IService
 {

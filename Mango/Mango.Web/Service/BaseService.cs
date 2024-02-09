@@ -20,11 +20,11 @@ namespace Mango.Web.Service
         {
             try
             {
-                HttpClient client = _httpClientFactory.CreateClient("MangoAPI");
+                HttpClient client = _httpClientFactory.CreateClient("ProductAPI");
                 HttpRequestMessage message = new();
                 message.Headers.Add("Accept", "application/json");
                 //add token
-                if(withBearer)
+                if (withBearer)
                 {
                     var token = _tokenProvider.GetToken();
                     message.Headers.Add("Authorization", $"Bearer {token}");

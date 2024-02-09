@@ -1,7 +1,7 @@
 ﻿using Mango.Web.Models;
 using Mango.Web.Service.IService;
 using Mango.Web.Ultility;
-using Mango.Webb.Models.Dtos;
+using Mango.Web.Models.Dto;
 
 namespace Mango.Web.Service
 {
