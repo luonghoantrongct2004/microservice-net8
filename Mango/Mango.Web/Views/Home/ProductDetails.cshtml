@@ -1,10 +1,4 @@
 ﻿@model Mango.Web.Models.Dto.ProductDto
-
-@{
-    ViewData["Title"] = "ProductDetails";
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
-
 <form method="post">
     <input asp-for="ProductId" hidden />
     <div class=" pt-4">
@@ -30,11 +24,11 @@
                                     <span class="badge bg-primary text-success p-3 border">@Model.CategoryName</span>
                                     <p class="text-secondary pt-3">@Html.Raw(Model.Description)</p>
                                 </div>
-                         @*    </div>
+                            </div>
                             <div class="row mx-0">
                                 <input asp-for="Count" class="form-control" />
                                 <span asp-validation-for="Count" class="text-danger"></span>
-                            </div> *@
+                            </div>
                         </div>
                     </div>
                 </div>

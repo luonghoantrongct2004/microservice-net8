@@ -9,6 +9,6 @@ namespace Mango.Web.Service.IService
         Task<ResponseDto?> GetProductByIdAsync(int id);
         Task<ResponseDto?> CreateProductsAsync(ProductDto productDto);
         Task<ResponseDto?> UpdateProductsAsync(ProductDto productDto);
-        Task<ResponseDto?> DeleteProductsAsync(int id);
+        Task<ResponseDto?> DeleteProductAsync(int id);
     }
 }

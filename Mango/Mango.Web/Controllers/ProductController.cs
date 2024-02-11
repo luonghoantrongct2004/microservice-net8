@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Microsoft.AspNetCore.Authorization;
 using System.Data;
+using Mango.Web.Service;
 
 namespace Mango.Web.Controllers
 {
@@ -87,31 +88,33 @@ namespace Mango.Web.Controllers
         }
         public async Task<IActionResult> ProductDelete(int productId)
         {
-            ResponseDto? responseDto = await _productService.GetProductByIdAsync(productId);
-            if(responseDto!=null && responseDto.IsSuccess)
+            ResponseDto? response = await _productService.GetProductByIdAsync(productId);
+            if (response != null && response.IsSuccess)
             {
-                ProductDto? productDto = JsonConvert.DeserializeObject<ProductDto>(Convert.ToString(responseDto?.Result));
-                return View(productDto);
+                ProductDto? model = JsonConvert.DeserializeObject<ProductDto>(Convert.ToString(response.Result));
+                return View(model);
             }
             else
             {
-                TempData["error"] = responseDto?.Message;
+                TempData["error"] = response?.Message;
             }
             return NotFound();
         }
         [HttpPost]
         public async Task<IActionResult> ProductDelete(ProductDto productDto)
         {
-            ResponseDto? responseDto = await _productService.DeleteProductsAsync(productDto.ProductId);
-            if(responseDto!=null && responseDto.IsSuccess )
+            ResponseDto? response = await _productService.DeleteProductAsync(productDto.ProductId);
+            if (response != null && response.IsSuccess)
             {
-                TempData["success"] = responseDto?.Message;
+                TempData["success"] = $"Product deleted successful.";
+                return RedirectToAction(nameof(ProductIndex));
             }
             else
             {
-                TempData["error"] = responseDto?.Message;
+                TempData["error"] = response?.Message;
             }
             return View(productDto);
         }
     }
+
 }

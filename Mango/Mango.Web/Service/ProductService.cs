@@ -25,12 +25,12 @@ namespace Mango.Web.Service
             });
         }
 
-        public async Task<ResponseDto?> DeleteProductsAsync(int id)
+        public async Task<ResponseDto?> DeleteProductAsync(int id)
         {
             return await _baseService.SendAsync(new RequestDto()
             {
                 ApiType = SD.ApiType.DELETE,
-                Url = SD.ProductAPIBase + "api/product/" + id
+                Url = SD.ProductAPIBase + "/api/product/" + id
             });
         }
 

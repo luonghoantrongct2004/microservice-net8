@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7JZWMRu5gnrW6ZE19PdFWCX4QkruJIVcvgJWaIZNc+Y=",
+  "Hash": "L+mLPcH/GtThMGmw15/8mfQwOmawoftZQL6a+MrrL1U=",
   "Source": "Mango.Service.ProductApi",
   "BasePath": "_content/Mango.Service.ProductApi",
   "Mode": "Default",
@@ -15,5 +15,25 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\PREDATOR\\OneDrive\\Tài liệu\\Net-8_Microservice\\Mango\\Mango.Service.ProductApi\\wwwroot\\ProductImages\\6.jpg",
+      "SourceId": "Mango.Service.ProductApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PREDATOR\\OneDrive\\Tài liệu\\Net-8_Microservice\\Mango\\Mango.Service.ProductApi\\wwwroot\\",
+      "BasePath": "_content/Mango.Service.ProductApi",
+      "RelativePath": "ProductImages/6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProductImages\\6.jpg"
+    }
+  ]
 }
