@@ -3,6 +3,7 @@ using Mango.Service.ProductAPI;
 using Mango.Service.ProductAPI.Data;
 using Mango.Service.ProductAPI.Extensions;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
@@ -19,6 +20,7 @@ builder.Services.AddSingleton(mapper);
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
@@ -45,8 +47,12 @@ builder.Services.AddSwaggerGen(options =>
         }
     });
 });
+
+// Add authentication and authorization
 builder.AddAppAuthentication();
 builder.Services.AddAuthorization();
+
+// Add Swagger middleware
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
@@ -68,6 +74,7 @@ app.MapControllers();
 ApplyMigration();
 
 app.Run();
+
 void ApplyMigration()
 {
     using (var scope = app.Services.CreateScope())

@@ -139,3 +139,4 @@ C:\Users\PREDATOR\OneDrive\Tài liệu\Net-8_Microservice\Mango\Mango.Service.
 C:\Users\PREDATOR\OneDrive\Tài liệu\Net-8_Microservice\Mango\Mango.Service.ProductApi\obj\Debug\net8.0\Mango.Service.ProductApi.pdb
 C:\Users\PREDATOR\OneDrive\Tài liệu\Net-8_Microservice\Mango\Mango.Service.ProductApi\obj\Debug\net8.0\Mango.Service.ProductApi.genruntimeconfig.cache
 C:\Users\PREDATOR\OneDrive\Tài liệu\Net-8_Microservice\Mango\Mango.Service.ProductApi\obj\Debug\net8.0\ref\Mango.Service.ProductApi.dll
+C:\Users\PREDATOR\OneDrive\Tài liệu\Net-8_Microservice\Mango\Mango.Service.ProductApi\bin\Debug\net8.0\Mango.Service.ProductApi.staticwebassets.runtime.json

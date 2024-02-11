@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "eWRXZRq2EaCfB2XIP4MESkKom2Uk0cdxrt3l2NW49hU=",
+  "Hash": "7JZWMRu5gnrW6ZE19PdFWCX4QkruJIVcvgJWaIZNc+Y=",
   "Source": "Mango.Service.ProductApi",
   "BasePath": "_content/Mango.Service.ProductApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Mango.Service.ProductApi\\wwwroot",
+      "Source": "Mango.Service.ProductApi",
+      "ContentRoot": "C:\\Users\\PREDATOR\\OneDrive\\Tài liệu\\Net-8_Microservice\\Mango\\Mango.Service.ProductApi\\wwwroot\\",
+      "BasePath": "_content/Mango.Service.ProductApi",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

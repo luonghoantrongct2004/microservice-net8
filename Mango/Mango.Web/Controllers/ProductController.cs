@@ -3,6 +3,8 @@ using Mango.Web.Service.IService;
 using Mango.Web.Models.Dto;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using Microsoft.AspNetCore.Authorization;
+using System.Data;
 
 namespace Mango.Web.Controllers
 {
@@ -17,7 +19,7 @@ namespace Mango.Web.Controllers
 
         public async Task<IActionResult> ProductIndex()
         {
-            List<ProductDto> list = new();
+            List<ProductDto>? list = new();
             ResponseDto? responseDto = await _productService.GetAllProductsAsync();
             if(responseDto!=null && responseDto.IsSuccess)
             {
