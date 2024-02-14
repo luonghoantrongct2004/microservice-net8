@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WIsj0pTZ4cl9YdCrvAs4e9IP4gw9hw3QbXPRW69iWggLl0/GpBikxV7gBCAa7m0HHM1UsnBXbxjsS4zTpJsx9w==",
+  "dgSpecHash": "ZcAPrOVIqiRNZc6JZtlX9c7uu4OnGrXfsQ+PWm7wyY285Hr4uxtex8h2o0kluoO95z/c4OkQ3Ew+ZGNo2vqLKw==",
   "success": true,
   "projectFilePath": "C:\\Users\\PREDATOR\\OneDrive\\Tài liệu\\Net-8_Microservice\\Mango\\Mango.Web\\Mango.Web.csproj",
   "expectedPackageFiles": [
@@ -54,6 +54,7 @@
     "C:\\Users\\PREDATOR\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\PREDATOR\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\PREDATOR\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\PREDATOR\\.nuget\\packages\\identitymodel\\7.0.0-preview.2\\identitymodel.7.0.0-preview.2.nupkg.sha512",
     "C:\\Users\\PREDATOR\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.1\\microsoft.aspnetcore.authorization.8.0.1.nupkg.sha512",
     "C:\\Users\\PREDATOR\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.1\\microsoft.aspnetcore.components.8.0.1.nupkg.sha512",
     "C:\\Users\\PREDATOR\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.1\\microsoft.aspnetcore.components.analyzers.8.0.1.nupkg.sha512",

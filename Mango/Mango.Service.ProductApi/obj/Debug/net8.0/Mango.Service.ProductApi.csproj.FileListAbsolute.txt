@@ -1,5 +1,6 @@
 C:\Users\PREDATOR\OneDrive\Tài liệu\Net-8_Microservice\Mango\Mango.Service.ProductApi\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\PREDATOR\OneDrive\Tài liệu\Net-8_Microservice\Mango\Mango.Service.ProductApi\bin\Debug\net8.0\appsettings.json
+C:\Users\PREDATOR\OneDrive\Tài liệu\Net-8_Microservice\Mango\Mango.Service.ProductApi\bin\Debug\net8.0\Mango.Service.ProductApi.staticwebassets.runtime.json
 C:\Users\PREDATOR\OneDrive\Tài liệu\Net-8_Microservice\Mango\Mango.Service.ProductApi\bin\Debug\net8.0\Mango.Service.ProductApi.exe
 C:\Users\PREDATOR\OneDrive\Tài liệu\Net-8_Microservice\Mango\Mango.Service.ProductApi\bin\Debug\net8.0\Mango.Service.ProductApi.deps.json
 C:\Users\PREDATOR\OneDrive\Tài liệu\Net-8_Microservice\Mango\Mango.Service.ProductApi\bin\Debug\net8.0\Mango.Service.ProductApi.runtimeconfig.json
@@ -139,4 +140,3 @@ C:\Users\PREDATOR\OneDrive\Tài liệu\Net-8_Microservice\Mango\Mango.Service.
 C:\Users\PREDATOR\OneDrive\Tài liệu\Net-8_Microservice\Mango\Mango.Service.ProductApi\obj\Debug\net8.0\Mango.Service.ProductApi.pdb
 C:\Users\PREDATOR\OneDrive\Tài liệu\Net-8_Microservice\Mango\Mango.Service.ProductApi\obj\Debug\net8.0\Mango.Service.ProductApi.genruntimeconfig.cache
 C:\Users\PREDATOR\OneDrive\Tài liệu\Net-8_Microservice\Mango\Mango.Service.ProductApi\obj\Debug\net8.0\ref\Mango.Service.ProductApi.dll
-C:\Users\PREDATOR\OneDrive\Tài liệu\Net-8_Microservice\Mango\Mango.Service.ProductApi\bin\Debug\net8.0\Mango.Service.ProductApi.staticwebassets.runtime.json

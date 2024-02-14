@@ -7,6 +7,7 @@ C:\Users\PREDATOR\OneDrive\Tài liệu\Net-8_Microservice\Mango\Mango.Web\bin\
 C:\Users\PREDATOR\OneDrive\Tài liệu\Net-8_Microservice\Mango\Mango.Web\bin\Debug\net8.0\Mango.Web.dll
 C:\Users\PREDATOR\OneDrive\Tài liệu\Net-8_Microservice\Mango\Mango.Web\bin\Debug\net8.0\Mango.Web.pdb
 C:\Users\PREDATOR\OneDrive\Tài liệu\Net-8_Microservice\Mango\Mango.Web\bin\Debug\net8.0\Humanizer.dll
+C:\Users\PREDATOR\OneDrive\Tài liệu\Net-8_Microservice\Mango\Mango.Web\bin\Debug\net8.0\IdentityModel.dll
 C:\Users\PREDATOR\OneDrive\Tài liệu\Net-8_Microservice\Mango\Mango.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
 C:\Users\PREDATOR\OneDrive\Tài liệu\Net-8_Microservice\Mango\Mango.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
 C:\Users\PREDATOR\OneDrive\Tài liệu\Net-8_Microservice\Mango\Mango.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll

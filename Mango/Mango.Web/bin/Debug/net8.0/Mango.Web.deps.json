@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "Mango.Web/1.0.0": {
         "dependencies": {
+          "IdentityModel": "7.0.0-preview.2",
           "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": "8.0.1",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.0",
           "Newtonsoft.Json": "13.0.3",
@@ -554,6 +555,14 @@
         "resources": {
           "lib/net6.0/zh-Hant/Humanizer.resources.dll": {
             "locale": "zh-Hant"
+          }
+        }
+      },
+      "IdentityModel/7.0.0-preview.2": {
+        "runtime": {
+          "lib/net6.0/IdentityModel.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
           }
         }
       },
@@ -2050,6 +2059,13 @@
       "sha512": "sha512-VIXB7HCUC34OoaGnO3HJVtSv2/wljPhjV7eKH4+TFPgQdJj2lvHNKY41Dtg0Bphu7X5UaXFR4zrYYyo+GNOjbA==",
       "path": "humanizer.core.zh-hant/2.14.1",
       "hashPath": "humanizer.core.zh-hant.2.14.1.nupkg.sha512"
+    },
+    "IdentityModel/7.0.0-preview.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x4tGfyJsUmk3dj/KFc0DEcqXlW8D2+bOHGYQqL6KMqVLeBbt059s8ndjh4gmQKXs2Om7hZZMiviQ4H7KjesUig==",
+      "path": "identitymodel/7.0.0-preview.2",
+      "hashPath": "identitymodel.7.0.0-preview.2.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/8.0.1": {
       "type": "package",
